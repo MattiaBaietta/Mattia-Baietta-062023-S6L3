@@ -1,0 +1,308 @@
+/* CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+.spacings-block-sm {
+  display: block;
+  padding: 10px;
+}
+
+.spacings-block-normal {
+  display: block;
+  padding: 20px;
+}
+
+.spacings-block-md {
+  display: block;
+  padding: 30px;
+}
+
+.spacings-block-lg {
+  display: block;
+  padding: 40px;
+}
+
+.spacings-block-xl {
+  display: block;
+  padding: 50px;
+}
+
+.spacings-block-xxl {
+  display: block;
+  padding: 60px;
+}
+
+.spacings-inline-sm {
+  display: inline;
+  padding: 10px;
+}
+
+.spacings-inline-normal {
+  display: inline;
+  padding: 20px;
+}
+
+.spacings-inline-md {
+  display: inline;
+  padding: 30px;
+}
+
+.spacings-inline-lg {
+  display: inline;
+  padding: 40px;
+}
+
+.spacings-inline-xl {
+  display: inline;
+  padding: 50px;
+}
+
+.spacings-inline-xxl {
+  display: inline;
+  padding: 60px;
+}
+
+.colBtn0 {
+  background-color: #0e6cff;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.colBtn0:hover {
+  transform: scale(0.9);
+}
+
+.colBtn1 {
+  background-color: #ff8700;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.colBtn1:hover {
+  transform: scale(0.9);
+}
+
+.colBtn2 {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.colBtn2:hover {
+  transform: scale(0.9);
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-container img {
+  width: 100%;
+}
+
+.fadein > div :nth-child(0) {
+  animation-name: animazione0;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
+@keyframes animazione0 {
+  from {
+    opacity: 0;
+    transform: translateY(-67px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadein > div :nth-child(1) {
+  animation-name: animazione1;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+@keyframes animazione1 {
+  from {
+    opacity: 0;
+    transform: translateY(-13px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadein > div :nth-child(2) {
+  animation-name: animazione2;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+@keyframes animazione2 {
+  from {
+    opacity: 0;
+    transform: translateY(-51px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadein > div :nth-child(3) {
+  animation-name: animazione3;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes animazione3 {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadein > div :nth-child(4) {
+  animation-name: animazione4;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+@keyframes animazione4 {
+  from {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadein > div :nth-child(5) {
+  animation-name: animazione5;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+@keyframes animazione5 {
+  from {
+    opacity: 0;
+    transform: translateY(-91px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.prova {
+  animation-name: animazione6;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+@keyframes animazione6 {
+  from {
+    opacity: 0;
+    transform: translateY(51px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fadein {
+  display: flex;
+  align-items: center;
+}
+
+.fadein img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px white solid;
+}
+
+.fadein > div {
+  width: 50%;
+}
+
+.fadein h1 {
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+.fadein p {
+  color: gray;
+}
+
+.background {
+  background-color: #640fc5;
+}
+
+nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 10%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  padding-right: 20px;
+}
+
+.finale {
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */

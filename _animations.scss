@@ -1,0 +1,21 @@
+@mixin slowFall($nome,$durata,$puntoInizio,$puntoFine,$delay){
+    @keyframes #{$nome} {
+        from{
+            opacity: 0;
+            transform: translateY($puntoInizio+0px)
+        }
+        to{
+            opacity: 1;
+            transform: translateY($puntoFine+0px)
+        }
+    }
+    
+        animation-name: #{$nome};
+        animation-duration: #{$durata}s;
+        animation-delay: #{$delay}s;
+        
+    
+   
+    @content;
+
+}

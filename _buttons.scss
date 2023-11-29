@@ -1,0 +1,16 @@
+$colBtn:#0e6cff,#ff8700,#4caf50;
+$i2:0;
+@each $i in $colBtn{
+    
+    .colBtn#{$i2}{
+        background-color: $i;  
+        color:white;
+        padding: 5px;      
+        border: none;
+        border-radius: 5px; 
+    }
+    .colBtn#{$i2}:hover{
+        transform: scale(0.9);
+    }
+    $i2:$i2+1;
+}

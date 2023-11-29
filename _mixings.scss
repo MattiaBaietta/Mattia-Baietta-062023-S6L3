@@ -1,0 +1,11 @@
+@mixin floating($bordOpz:#00000000){
+    border-radius: 5px;
+    box-shadow: 2px;
+    border: 2px solid $bordOpz;
+    
+}
+@mixin grid($numElementi){
+    display: grid;
+    grid-template-columns: repeat($numElementi, 1fr);
+    //grid-auto-flow: dense; a cosa serve?
+}

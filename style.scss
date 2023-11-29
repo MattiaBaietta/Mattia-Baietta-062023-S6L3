@@ -1,0 +1,81 @@
+@import 'reset';
+@import 'color';
+@import 'font';
+@import 'spacing';
+@import 'buttons';
+@import 'mixings';
+@import 'animations';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.grid-container {
+    @include grid(4)
+    
+  }
+  .grid-container img{
+    width: 100%;
+  }
+
+@for $i from 0 through 5{
+    .fadein>div :nth-child(#{$i}){
+            @include slowFall("animazione"+#{$i},random(5),-(random(100)),0,random(3))
+        
+    }
+    
+}
+.prova{
+    @include slowFall("animazione6",random(5),(random(100)),0,random(3))
+}
+
+.fadein{
+    display:flex;
+    align-items: center;
+}
+.fadein img{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    border:1px white solid;
+
+}
+.fadein>div{
+    width: 50%;
+    
+    
+}
+.fadein h1{
+    font-weight: bolder;
+    font-size: 3em;
+}
+.fadein p{
+    color: gray;
+}
+.background{
+    background-color: $colHead;
+}
+    nav{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            width:10%
+        }
+        ul{
+            
+            list-style:none;
+            display: flex;
+            
+             flex-direction: row;
+            li{
+                padding-right: 20px;
+            }
+        }
+    }
+   
+.finale{
+    background-color: white;
+}
+    

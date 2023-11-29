@@ -1,0 +1,13 @@
+$display: block, inline;
+$sizes: sm, normal, md, lg, xl, xxl;
+
+@each $i in $display {
+    $i3:1;
+    @each $i2 in $sizes {
+        .spacings-#{$i}-#{$i2} {
+            display: $i;
+            padding: 10px * $i3;
+        }
+        $i3:$i3+1;  
+    }
+}
