@@ -146,13 +146,13 @@ body {
 
 .fadein > div :nth-child(0) {
   animation-name: animazione0;
-  animation-duration: 2s;
-  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-delay: 2s;
 }
 @keyframes animazione0 {
   from {
     opacity: 0;
-    transform: translateY(-67px);
+    transform: translateY(-55px);
   }
   to {
     opacity: 1;
@@ -162,13 +162,13 @@ body {
 
 .fadein > div :nth-child(1) {
   animation-name: animazione1;
-  animation-duration: 1s;
+  animation-duration: 5s;
   animation-delay: 1s;
 }
 @keyframes animazione1 {
   from {
     opacity: 0;
-    transform: translateY(-13px);
+    transform: translateY(-83px);
   }
   to {
     opacity: 1;
@@ -178,13 +178,13 @@ body {
 
 .fadein > div :nth-child(2) {
   animation-name: animazione2;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 5s;
+  animation-delay: 3s;
 }
 @keyframes animazione2 {
   from {
     opacity: 0;
-    transform: translateY(-51px);
+    transform: translateY(-100px);
   }
   to {
     opacity: 1;
@@ -195,12 +195,12 @@ body {
 .fadein > div :nth-child(3) {
   animation-name: animazione3;
   animation-duration: 5s;
-  animation-delay: 1s;
+  animation-delay: 3s;
 }
 @keyframes animazione3 {
   from {
     opacity: 0;
-    transform: translateY(-16px);
+    transform: translateY(-28px);
   }
   to {
     opacity: 1;
@@ -211,12 +211,12 @@ body {
 .fadein > div :nth-child(4) {
   animation-name: animazione4;
   animation-duration: 2s;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 @keyframes animazione4 {
   from {
     opacity: 0;
-    transform: translateY(-60px);
+    transform: translateY(-40px);
   }
   to {
     opacity: 1;
@@ -226,13 +226,13 @@ body {
 
 .fadein > div :nth-child(5) {
   animation-name: animazione5;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-delay: 1s;
 }
 @keyframes animazione5 {
   from {
     opacity: 0;
-    transform: translateY(-91px);
+    transform: translateY(-11px);
   }
   to {
     opacity: 1;
@@ -242,13 +242,13 @@ body {
 
 .prova {
   animation-name: animazione6;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-delay: 1s;
 }
 @keyframes animazione6 {
   from {
     opacity: 0;
-    transform: translateY(51px);
+    transform: translateY(58px);
   }
   to {
     opacity: 1;
